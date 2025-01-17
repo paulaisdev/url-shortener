@@ -107,6 +107,13 @@ Após a aplicação iniciar, ela estará disponível em `http://localhost:8080`.
 
 ## Endpoints e Exemplos de Requisição 📡
 
+---
+## **🔎 Teste local**
+
+Para testar localmente, além de utilizar a interface do swagger, está disponível a collection do postman que disponibilizo <a href="./assets/url-shortener-api-postman-collection.json" target="_blank">aqui</a>
+
+---
+
 ### 1. **Encurtar uma URL** 🖋️
 
 - **Método**: `POST /shorten`
@@ -348,10 +355,4 @@ Agora você pode acessar a API no seu navegador em:
 http://url-shortener.local
 ```
 
----
 
-## Conclusão 🎉
-
-Com isso, você pode rodar a **API de Encurtamento de URLs** localmente usando **Docker Compose** e também testar a aplicação no **Kubernetes local** com **Kind**. Além disso, o **Terraform** permite provisionar a infraestrutura necessária para rodar a aplicação em nuvem, se necessário.
-
-Para dúvidas ou mais informações, entre em contato! 🚀
