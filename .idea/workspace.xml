@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a587b36-3dc3-4878-b489-43802a1a6d9d" name="Changes" comment="" />
+    <list default="true" id="5a587b36-3dc3-4878-b489-43802a1a6d9d" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infraestructure/kind-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/kubernetes/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/kubernetes/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/kubernetes/service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/kubernetes/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/terraform/ingress.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/infraestructure/kubernetes/ingress.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infraestructure/terraform/main.tf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paulaisdev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/paulaisdev/url-shortener.git&quot;,
+    &quot;accountId&quot;: &quot;332320b0-092d-4917-afa8-68ac79cc8989&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -28,6 +53,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2rgjPhcZXh73vKAa7qTKNjayD04" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +68,9 @@
     "Maven.url-shortener [clean,install].executor": "Run",
     "Maven.url-shortener [clean,package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/paulaallemand/url-shortener",
     "project.structure.last.edited": "Project",
@@ -51,6 +80,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/infraestructure/kubernetes" />
+      <recent name="$PROJECT_DIR$/infraestructure/terraform" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/application" />
     </key>
@@ -90,6 +121,19 @@
       <option name="presentableId" value="Default" />
       <updated>1736987589622</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1737144413453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737144413453</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>

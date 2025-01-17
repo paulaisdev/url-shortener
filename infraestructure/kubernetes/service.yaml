@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-app-service
+  name: url-shortener
 spec:
   selector:
-    app: my-app
+    app: url-shortener
   ports:
     - protocol: TCP
       port: 80

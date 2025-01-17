@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: url-shortener
-          image: your-dockerhub-username/url-shortener:latest
+          image: paulaallemand/url-shortener:latest
           ports:
             - containerPort: 8080
           env:
