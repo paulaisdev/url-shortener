@@ -1,6 +1,6 @@
 # URL Shortener API 📐🔗
 
-## Mapa da Documentação 🗺️
+## Mapa da Página 🗺️
 
 - [Descrição](#descrição)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -10,6 +10,7 @@
 - [Design da API](#design-da-api)
     - [Requisitos Funcionais](#requisitos-funcionais)
 - [Provisionando a Infraestrutura e Deploy no Kubernetes com Kind](#provisionando-a-infraestrutura-e-deploy-no-kubernetes-com-kind)
+- [Informações Adicionais](#informações-adicionais)
 
 ---
 
@@ -354,5 +355,17 @@ Agora você pode acessar a API no seu navegador em:
 ```bash
 http://url-shortener.local
 ```
+---
 
+🚀 Informações Adicionais
+Este projeto foi construído em poucos dias com foco em implementar as regras de negócio da API. A ideia foi implementar parte de boas práticas de desenvolvimento, ainda que de maneira mais simples, conforme a complexidade do projeto, seguindo práticas do Clean Code, SOLID e outras práticas sugeridas pela comunidade. Caso você tenha sugestões ou ideias, são sempre bem-vindas!
+
+Melhorias previstas:
+- Controlador de Ingress em execução, para rotear o tráfego corretamente (visto que neste projeto usamos Kind, e não serviço como AWS ou GCP)
+- Observabilidade
+- Práticas extras de segurança
+- Estrutura da pipeline
+- Swagger
+
+Obrigada por ter chegado até aqui e vamos juntos! 🚀
 
